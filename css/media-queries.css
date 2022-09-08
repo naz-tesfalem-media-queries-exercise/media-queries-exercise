@@ -66,13 +66,21 @@ footer {
     .header-img img {
         width: 100vw;
     }
+
    .main {
+       margin: 2.5em 0;
+       width: 60%;
+       align-self: baseline;
+       flex-shrink: 2;
    }
    .sub-section {
-
+       margin-left: 2rem;
+       width:35%;
+       align-self: baseline;
+        flex-shrink: 1;
    }
-   h2 {
-
+   footer {
+      margin-top: 10rem;
    }
 
 }
