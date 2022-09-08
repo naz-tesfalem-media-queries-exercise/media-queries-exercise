@@ -74,13 +74,15 @@ footer {
        flex-shrink: 2;
    }
    .sub-section {
-       margin-left: 2rem;
-       width:35%;
-       align-self: baseline;
+        margin-left: 2rem;
+        width:35%;
+        align-self: baseline;
         flex-shrink: 1;
    }
    footer {
-      margin-top: 10rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
    }
 
 }
