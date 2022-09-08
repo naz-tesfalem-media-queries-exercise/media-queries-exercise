@@ -45,6 +45,12 @@ h2 {
 footer {
     margin-top: 5rem;
 }
+footer > p {
+    margin-bottom: 1rem;
+}
+#social-media-links i {
+    padding: 0.5rem;
+}
 @media screen and (min-width: 700px) {
     .alert-info {
         display: none;
@@ -81,8 +87,11 @@ footer {
    }
    footer {
         display: flex;
+        width: 100%;
         justify-content: space-between;
         margin-top: 10rem;
    }
-
+   #social-media-links i {
+       padding: 0.5rem;
+   }
 }
